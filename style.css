@@ -6,13 +6,13 @@
 }
 
 body {
-    background-color: #c6b9b9;
+    background-color: #fff;
 }
 
 .card {
     width: 90%;
     max-width: 470px;
-    background: #000;
+    background: #403d3d;
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -103,4 +103,19 @@ body {
     font-size: 14px;
     margin-top: 10px;
     display: none;
+}
+
+@media all and (max-width: 500px){
+    .search input{
+        width: 90%;
+        height: 90%;
+        font-size: 16px;
+    }
+    .search button{
+        width: 38px;
+        height: 38px;
+    }
+    .search button img{
+        width: 13px;
+    }
 }
