@@ -18,6 +18,7 @@ body {
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+    box-shadow: 8px 8px 16px #938a8a;
 }
 
 .search {
@@ -117,5 +118,18 @@ body {
     }
     .search button img{
         width: 13px;
+    }
+    .humidity,
+    .wind{
+        font-size: 15px;
+    }
+    .col img{
+        width: 30px;
+    }
+    .col{
+        margin-right: 10px
+    }
+    .details{
+        padding: 0;
     }
 }
